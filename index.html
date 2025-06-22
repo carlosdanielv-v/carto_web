@@ -1,14 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cartoweb</title>	
+    <title>La Cartografía: El Poder de Ver el Mundo</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    <header>
+        <h1>La Cartografía: El Poder de Ver el Mundo</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#elementos">Elementos Clave</a></li>
+                <li><a href="#tipos">Tipos de Mapas</a></li>
+                <li><a href="#interactivo">Mapa Interactivo</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="introduccion">
+            <h2>¿Qué es la Cartografía?</h2>
+            <p>La cartografía es la ciencia, el arte y la técnica de hacer mapas. Es una disciplina que combina la geografía, las matemáticas, la informática y el diseño para representar la superficie terrestre o partes de ella en un plano.</p>
+            <p>Desde la antigüedad, los mapas han sido herramientas esenciales para la navegación, la exploración, la planificación y la comprensión de nuestro mundo. Evolucionaron desde simples dibujos hasta complejos sistemas de información geográfica.</p>
+        </section>
 
+        <section id="historia">
+            <h2>Breve Historia de la Cartografía</h2>
+            <p>La historia de la cartografía es tan antigua como la civilización misma. Los primeros mapas conocidos datan de miles de años atrás, grabados en tablillas de arcilla o pintados en paredes de cuevas. Culturas como la egipcia, griega, romana y china desarrollaron sus propias técnicas cartográficas.</p>
+            <p>El Renacimiento marcó un punto de inflexión con exploradores como <strong>Cristóbal Colón</strong> y <strong>Ferdinand Magellan</strong> que impulsaron la necesidad de mapas más precisos. Figuras como <strong>Gerardus Mercator</strong> revolucionaron la proyección cartográfica.</p>
+        </section>
+
+        <section id="elementos">
+            <h2>Elementos Clave de un Mapa</h2>
+            <ul>
+                <li>Título: Indica el tema o propósito del mapa.</li>
+                <li>Leyenda: Explica los símbolos y colores utilizados en el mapa.</li>
+                <li>Escala: Muestra la relación entre la distancia en el mapa y la distancia real.</li>
+                <li>Orientación: Generalmente indica el Norte para ubicar las direcciones.</li>
+                <li>Coordenadas: Latitud y longitud para ubicar puntos exactos.</li>
+                <li>Proyección: El método utilizado para representar una superficie esférica en un plano.</li>
+            </ul>
+        </section>
+
+        <section id="tipos">
+            <h2>Tipos Comunes de Mapas</h2>
+            <div class="map-types">
+                <div class="map-type-item">
+                    <h3>Mapas Topográficos</h3>
+                    <p>Muestran las características físicas de la superficie terrestre, incluyendo elevación (curvas de nivel), ríos, lagos y vegetación.</p>
+                </div>
+                <div class="map-type-item">
+                    <h3>Mapas Temáticos</h3>
+                    <p>Representan la distribución de un tema específico, como la población, el clima, la economía o la geología.</p>
+                </div>
+                <div class="map-type-item">
+                    <h3>Mapas Políticos</h3>
+                    <p>Delimitan fronteras de países, estados, ciudades y otras divisiones administrativas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="interactivo">
+            <h2>Explora un Mapa Interactivo</h2>
+            <p>Haz clic en el botón para ver el mapa.</p>
+            <button id="mostrarMapaBtn">Mostrar Mapa</button>
+            <div id="contenedorMapa" style="margin-top: 20px; width: 100%; height: 400px; background-color: #e0e0e0; border: 1px solid #ccc; display: none;">
+                <p style="text-align: center; padding-top: 180px; font-style: italic; color: #555;">
+                    (mapa en proceso.)
+                </p>
+            </div>
+            <p id="mensajeMapa" style="margin-top: 10px; font-weight: bold;"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cartografía</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
-
 </html>
