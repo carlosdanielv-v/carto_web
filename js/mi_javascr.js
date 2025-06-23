@@ -40,14 +40,14 @@
                                 .bindPopup('Lima, Perú');
                                 
                             
-                            mensajeMapa.textContent = "¡Mapa interactivo ha sido cargado con éxito!";
+                            mensajeMapa.textContent = "\xa1Mapa interactivo ha sido cargado con \u00E9xito!";
                             mapaYaCargado = true;
                         };
                         document.body.appendChild(script);
 
                     } else {
                        
-                        mensajeMapa.textContent = "¡Mapa interactivo visible!";
+                        mensajeMapa.textContent = "\xa1Mapa interactivo visible!";
                         if (leafletMap) {
                             leafletMap.invalidateSize(); 
                         }
