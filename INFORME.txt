@@ -1,0 +1,72 @@
+
+INFORME:
+
+EL PROYECTO CARTOWEB SE ELABORO CONFORME A LAS ENSEÑANSAS DEL CURSO
+
+1) CREAMOS NUESTRO REPOSITORIO EN EL GIT HUB CON EL EL NOMBRE DE CARTOWEB
+
+2) CLONAMOS EL PROYECTO GIT CLONE https://github.com/carlosdanielv-v/carto_web.git
+
+3)CREAMOS LAS CARPETAS PARA EL PROYECTO: CSS, JS Y EL ARCHIVO INDEX.HTML
+
+4)CREAMOS ARCHIVOS MI_JAVASCR Y MI_ESTILO, Y LO ADICIONAMOS A SUS RESPECTIVA CARPETA
+
+5) A MEDIDA QUE IBAMOS AVANSANDO, ACTUALIZAMOS NUESTRO REPOSITORIO CARTOWEB
+
+				git status
+				git commit -am "docs: ACTUALIZACIONES"
+				git branch -M main
+				git push -u origin main
+				
+OBS: Para mi proyecto de CartoWeb, elegí Leaflet con OpenStreetMap en lugar de Google Maps 
+porque es gratis, me da control total para personalizarlo, evito la complicación de crear 
+y gestionar claves API, y no dependo de nadie; así tengo mi mapa justo como quiero, sin sorpresas ni costos ocultos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
